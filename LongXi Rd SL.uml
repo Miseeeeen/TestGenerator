@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_95H-wMKXEee1bPToQapBtA" name="LongXi Rd">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_98bKYMKXEee1bPToQapBtA" name="Activity1" node="_Bb1QgMKYEee1bPToQapBtA _nCon0MKaEee1bPToQapBtA _npaIMMTwEeeDNspHFIYQgA _znXvAMTwEeeDNspHFIYQgA _4yBO8MTwEeeDNspHFIYQgA _JAt1sMTyEeeDNspHFIYQgA _QsRMIMTyEeeDNspHFIYQgA _VgRtsMTyEeeDNspHFIYQgA _faIuwMTyEeeDNspHFIYQgA _iX9x0MTyEeeDNspHFIYQgA _lNnT0MTzEeeDNspHFIYQgA __Tsr4MTzEeeDNspHFIYQgA _ColkEMT0EeeDNspHFIYQgA">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3T8ucMTwEeeDNspHFIYQgA" name="P12D-P14D-DBJ-DI &amp; !P12D-P14D-FBJ-DI" target="_znXvAMTwEeeDNspHFIYQgA" source="_npaIMMTwEeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6KbzYMTwEeeDNspHFIYQgA" name="!P12D-P14D-DBJ-DI &amp; P12D-P14D-FBJ-DI" target="_4yBO8MTwEeeDNspHFIYQgA" source="_npaIMMTwEeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LUlVwMTyEeeDNspHFIYQgA" name="!(P12D-P14D-DBJ-DI &amp; !P12D-P14D-FBJ-DI)&amp;!(!P12D-P14D-DBJ-DI &amp; P12D-P14D-FBJ-DI)" target="_JAt1sMTyEeeDNspHFIYQgA" source="_npaIMMTwEeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SEva8MTyEeeDNspHFIYQgA" name="(P12D-P14D-DBJ|P12D-P14D-FBJ)" target="_QsRMIMTyEeeDNspHFIYQgA" source="_JAt1sMTyEeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YJLCkMTyEeeDNspHFIYQgA" name="(!P12D-P14D-DBJ&amp;!P12D-P14D-FBJ)" target="_VgRtsMTyEeeDNspHFIYQgA" source="_JAt1sMTyEeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kl6QEMTyEeeDNspHFIYQgA" name="CycTimes_gt_ST24" target="_faIuwMTyEeeDNspHFIYQgA" source="_VgRtsMTyEeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mL6kkMTyEeeDNspHFIYQgA" name="CycTimes_leq_ST24" target="_iX9x0MTyEeeDNspHFIYQgA" source="_VgRtsMTyEeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7AdKgMTyEeeDNspHFIYQgA" name="CycTimes_gt_ST25" target="_faIuwMTyEeeDNspHFIYQgA" source="_QsRMIMTyEeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CKiLkMTzEeeDNspHFIYQgA" name="CycTimes_leq_ST25" target="_iX9x0MTyEeeDNspHFIYQgA" source="_QsRMIMTyEeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_EA6B4MT0EeeDNspHFIYQgA" name="true" target="_ColkEMT0EeeDNspHFIYQgA" source="_faIuwMTyEeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_EviCcMT0EeeDNspHFIYQgA" name="true" target="_ColkEMT0EeeDNspHFIYQgA" source="_iX9x0MTyEeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_IMqQoMT0EeeDNspHFIYQgA" name="(T13D-SLJ | T13D-XLJ | T64D-SLJ | T64D-XLJ | P12D-P14D-OVSJ)" target="_lNnT0MTzEeeDNspHFIYQgA" source="_ColkEMT0EeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_IxHokMT0EeeDNspHFIYQgA" name="!(T13D-SLJ | T13D-XLJ | T64D-SLJ | T64D-XLJ | P12D-P14D-OVSJ)" target="__Tsr4MTzEeeDNspHFIYQgA" source="_ColkEMT0EeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Kyx-UMT0EeeDNspHFIYQgA" name="true" target="_nCon0MKaEee1bPToQapBtA" source="_lNnT0MTzEeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_N3K8YMT0EeeDNspHFIYQgA" name="true" target="_nCon0MKaEee1bPToQapBtA" source="__Tsr4MTzEeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_y7QTEMT0EeeDNspHFIYQgA" name="true" target="_ColkEMT0EeeDNspHFIYQgA" source="_znXvAMTwEeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1cPCEMT0EeeDNspHFIYQgA" name="true" target="_ColkEMT0EeeDNspHFIYQgA" source="_4yBO8MTwEeeDNspHFIYQgA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LA2cMNvBEeeAqNDCDhqnhQ" name="true" target="_npaIMMTwEeeDNspHFIYQgA" source="_Bb1QgMKYEee1bPToQapBtA"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_Bb1QgMKYEee1bPToQapBtA" name="InitialNode1" outgoing="_LA2cMNvBEeeAqNDCDhqnhQ"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_nCon0MKaEee1bPToQapBtA" name="ActivityFinalNode1" incoming="_Kyx-UMT0EeeDNspHFIYQgA _N3K8YMT0EeeDNspHFIYQgA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_npaIMMTwEeeDNspHFIYQgA" name="DecisionNode10" incoming="_LA2cMNvBEeeAqNDCDhqnhQ" outgoing="_3T8ucMTwEeeDNspHFIYQgA _6KbzYMTwEeeDNspHFIYQgA _LUlVwMTyEeeDNspHFIYQgA"/>
+    <node xmi:type="uml:CreateLinkAction" xmi:id="_znXvAMTwEeeDNspHFIYQgA" name="DCWZ = 定位" incoming="_3T8ucMTwEeeDNspHFIYQgA" outgoing="_y7QTEMT0EeeDNspHFIYQgA"/>
+    <node xmi:type="uml:CreateLinkAction" xmi:id="_4yBO8MTwEeeDNspHFIYQgA" name="DCWZ = 反位" incoming="_6KbzYMTwEeeDNspHFIYQgA" outgoing="_1cPCEMT0EeeDNspHFIYQgA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_JAt1sMTyEeeDNspHFIYQgA" name="挤岔判断" incoming="_LUlVwMTyEeeDNspHFIYQgA" outgoing="_SEva8MTyEeeDNspHFIYQgA _YJLCkMTyEeeDNspHFIYQgA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_QsRMIMTyEeeDNspHFIYQgA" name="DecisionNode13" incoming="_SEva8MTyEeeDNspHFIYQgA" outgoing="_7AdKgMTyEeeDNspHFIYQgA _CKiLkMTzEeeDNspHFIYQgA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_VgRtsMTyEeeDNspHFIYQgA" name="DecisionNode14" incoming="_YJLCkMTyEeeDNspHFIYQgA" outgoing="_kl6QEMTyEeeDNspHFIYQgA _mL6kkMTyEeeDNspHFIYQgA"/>
+    <node xmi:type="uml:CreateLinkAction" xmi:id="_faIuwMTyEeeDNspHFIYQgA" name="DCJC=True" incoming="_kl6QEMTyEeeDNspHFIYQgA _7AdKgMTyEeeDNspHFIYQgA" outgoing="_EA6B4MT0EeeDNspHFIYQgA"/>
+    <node xmi:type="uml:CreateLinkAction" xmi:id="_iX9x0MTyEeeDNspHFIYQgA" name="DCJC=False" incoming="_mL6kkMTyEeeDNspHFIYQgA _CKiLkMTzEeeDNspHFIYQgA" outgoing="_EviCcMT0EeeDNspHFIYQgA"/>
+    <node xmi:type="uml:CreateLinkAction" xmi:id="_lNnT0MTzEeeDNspHFIYQgA" name="DCDS=True" incoming="_IMqQoMT0EeeDNspHFIYQgA" outgoing="_Kyx-UMT0EeeDNspHFIYQgA"/>
+    <node xmi:type="uml:CreateLinkAction" xmi:id="__Tsr4MTzEeeDNspHFIYQgA" name="DCDS=False" incoming="_IxHokMT0EeeDNspHFIYQgA" outgoing="_N3K8YMT0EeeDNspHFIYQgA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_ColkEMT0EeeDNspHFIYQgA" name="DecisionNode15" incoming="_EA6B4MT0EeeDNspHFIYQgA _EviCcMT0EeeDNspHFIYQgA _y7QTEMT0EeeDNspHFIYQgA _1cPCEMT0EeeDNspHFIYQgA" outgoing="_IMqQoMT0EeeDNspHFIYQgA _IxHokMT0EeeDNspHFIYQgA"/>
+  </packagedElement>
+</uml:Model>
